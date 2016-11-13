@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33ED25F51DD82344002C90E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED25F41DD82344002C90E1 /* AppDelegate.swift */; };
+		33ED25F71DD82344002C90E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED25F61DD82344002C90E1 /* ViewController.swift */; };
+		33ED25FA1DD82344002C90E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33ED25F81DD82344002C90E1 /* Main.storyboard */; };
+		33ED25FC1DD82344002C90E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33ED25FB1DD82344002C90E1 /* Assets.xcassets */; };
+		33ED25FF1DD82344002C90E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33ED25FD1DD82344002C90E1 /* LaunchScreen.storyboard */; };
+		33ED260A1DD82344002C90E1 /* CalcyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED26091DD82344002C90E1 /* CalcyTests.swift */; };
+		33ED26151DD82345002C90E1 /* CalcyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED26141DD82345002C90E1 /* CalcyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33ED26061DD82344002C90E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33ED25E91DD82344002C90E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33ED25F01DD82344002C90E1;
+			remoteInfo = Calcy;
+		};
+		33ED26111DD82344002C90E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33ED25E91DD82344002C90E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33ED25F01DD82344002C90E1;
+			remoteInfo = Calcy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33ED25F11DD82344002C90E1 /* Calcy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calcy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ED25F41DD82344002C90E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33ED25F61DD82344002C90E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33ED25F91DD82344002C90E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33ED25FB1DD82344002C90E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33ED25FE1DD82344002C90E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33ED26001DD82344002C90E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33ED26051DD82344002C90E1 /* CalcyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ED26091DD82344002C90E1 /* CalcyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcyTests.swift; sourceTree = "<group>"; };
+		33ED260B1DD82344002C90E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33ED26101DD82344002C90E1 /* CalcyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ED26141DD82345002C90E1 /* CalcyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcyUITests.swift; sourceTree = "<group>"; };
+		33ED26161DD82345002C90E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33ED25EE1DD82344002C90E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ED26021DD82344002C90E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ED260D1DD82344002C90E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33ED25E81DD82344002C90E1 = {
+			isa = PBXGroup;
+			children = (
+				33ED25F31DD82344002C90E1 /* Calcy */,
+				33ED26081DD82344002C90E1 /* CalcyTests */,
+				33ED26131DD82344002C90E1 /* CalcyUITests */,
+				33ED25F21DD82344002C90E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33ED25F21DD82344002C90E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33ED25F11DD82344002C90E1 /* Calcy.app */,
+				33ED26051DD82344002C90E1 /* CalcyTests.xctest */,
+				33ED26101DD82344002C90E1 /* CalcyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33ED25F31DD82344002C90E1 /* Calcy */ = {
+			isa = PBXGroup;
+			children = (
+				33ED25F41DD82344002C90E1 /* AppDelegate.swift */,
+				33ED25F61DD82344002C90E1 /* ViewController.swift */,
+				33ED25F81DD82344002C90E1 /* Main.storyboard */,
+				33ED25FB1DD82344002C90E1 /* Assets.xcassets */,
+				33ED25FD1DD82344002C90E1 /* LaunchScreen.storyboard */,
+				33ED26001DD82344002C90E1 /* Info.plist */,
+			);
+			path = Calcy;
+			sourceTree = "<group>";
+		};
+		33ED26081DD82344002C90E1 /* CalcyTests */ = {
+			isa = PBXGroup;
+			children = (
+				33ED26091DD82344002C90E1 /* CalcyTests.swift */,
+				33ED260B1DD82344002C90E1 /* Info.plist */,
+			);
+			path = CalcyTests;
+			sourceTree = "<group>";
+		};
+		33ED26131DD82344002C90E1 /* CalcyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33ED26141DD82345002C90E1 /* CalcyUITests.swift */,
+				33ED26161DD82345002C90E1 /* Info.plist */,
+			);
+			path = CalcyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33ED25F01DD82344002C90E1 /* Calcy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33ED26191DD82345002C90E1 /* Build configuration list for PBXNativeTarget "Calcy" */;
+			buildPhases = (
+				33ED25ED1DD82344002C90E1 /* Sources */,
+				33ED25EE1DD82344002C90E1 /* Frameworks */,
+				33ED25EF1DD82344002C90E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calcy;
+			productName = Calcy;
+			productReference = 33ED25F11DD82344002C90E1 /* Calcy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33ED26041DD82344002C90E1 /* CalcyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33ED261C1DD82345002C90E1 /* Build configuration list for PBXNativeTarget "CalcyTests" */;
+			buildPhases = (
+				33ED26011DD82344002C90E1 /* Sources */,
+				33ED26021DD82344002C90E1 /* Frameworks */,
+				33ED26031DD82344002C90E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33ED26071DD82344002C90E1 /* PBXTargetDependency */,
+			);
+			name = CalcyTests;
+			productName = CalcyTests;
+			productReference = 33ED26051DD82344002C90E1 /* CalcyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33ED260F1DD82344002C90E1 /* CalcyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33ED261F1DD82345002C90E1 /* Build configuration list for PBXNativeTarget "CalcyUITests" */;
+			buildPhases = (
+				33ED260C1DD82344002C90E1 /* Sources */,
+				33ED260D1DD82344002C90E1 /* Frameworks */,
+				33ED260E1DD82344002C90E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33ED26121DD82344002C90E1 /* PBXTargetDependency */,
+			);
+			name = CalcyUITests;
+			productName = CalcyUITests;
+			productReference = 33ED26101DD82344002C90E1 /* CalcyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33ED25E91DD82344002C90E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = com.rsampdev;
+				TargetAttributes = {
+					33ED25F01DD82344002C90E1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QPX29C6Z92;
+						ProvisioningStyle = Automatic;
+					};
+					33ED26041DD82344002C90E1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QPX29C6Z92;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 33ED25F01DD82344002C90E1;
+					};
+					33ED260F1DD82344002C90E1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QPX29C6Z92;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 33ED25F01DD82344002C90E1;
+					};
+				};
+			};
+			buildConfigurationList = 33ED25EC1DD82344002C90E1 /* Build configuration list for PBXProject "Calcy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33ED25E81DD82344002C90E1;
+			productRefGroup = 33ED25F21DD82344002C90E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33ED25F01DD82344002C90E1 /* Calcy */,
+				33ED26041DD82344002C90E1 /* CalcyTests */,
+				33ED260F1DD82344002C90E1 /* CalcyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33ED25EF1DD82344002C90E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ED25FF1DD82344002C90E1 /* LaunchScreen.storyboard in Resources */,
+				33ED25FC1DD82344002C90E1 /* Assets.xcassets in Resources */,
+				33ED25FA1DD82344002C90E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ED26031DD82344002C90E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ED260E1DD82344002C90E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33ED25ED1DD82344002C90E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ED25F71DD82344002C90E1 /* ViewController.swift in Sources */,
+				33ED25F51DD82344002C90E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ED26011DD82344002C90E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ED260A1DD82344002C90E1 /* CalcyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ED260C1DD82344002C90E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ED26151DD82345002C90E1 /* CalcyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33ED26071DD82344002C90E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33ED25F01DD82344002C90E1 /* Calcy */;
+			targetProxy = 33ED26061DD82344002C90E1 /* PBXContainerItemProxy */;
+		};
+		33ED26121DD82344002C90E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33ED25F01DD82344002C90E1 /* Calcy */;
+			targetProxy = 33ED26111DD82344002C90E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33ED25F81DD82344002C90E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33ED25F91DD82344002C90E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33ED25FD1DD82344002C90E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33ED25FE1DD82344002C90E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33ED26171DD82345002C90E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33ED26181DD82345002C90E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33ED261A1DD82345002C90E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QPX29C6Z92;
+				INFOPLIST_FILE = Calcy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsampdev.Calcy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		33ED261B1DD82345002C90E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QPX29C6Z92;
+				INFOPLIST_FILE = Calcy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsampdev.Calcy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		33ED261D1DD82345002C90E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QPX29C6Z92;
+				INFOPLIST_FILE = CalcyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsampdev.CalcyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calcy.app/Calcy";
+			};
+			name = Debug;
+		};
+		33ED261E1DD82345002C90E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QPX29C6Z92;
+				INFOPLIST_FILE = CalcyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsampdev.CalcyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calcy.app/Calcy";
+			};
+			name = Release;
+		};
+		33ED26201DD82345002C90E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QPX29C6Z92;
+				INFOPLIST_FILE = CalcyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsampdev.CalcyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Calcy;
+			};
+			name = Debug;
+		};
+		33ED26211DD82345002C90E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QPX29C6Z92;
+				INFOPLIST_FILE = CalcyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsampdev.CalcyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Calcy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33ED25EC1DD82344002C90E1 /* Build configuration list for PBXProject "Calcy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ED26171DD82345002C90E1 /* Debug */,
+				33ED26181DD82345002C90E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33ED26191DD82345002C90E1 /* Build configuration list for PBXNativeTarget "Calcy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ED261A1DD82345002C90E1 /* Debug */,
+				33ED261B1DD82345002C90E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33ED261C1DD82345002C90E1 /* Build configuration list for PBXNativeTarget "CalcyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ED261D1DD82345002C90E1 /* Debug */,
+				33ED261E1DD82345002C90E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33ED261F1DD82345002C90E1 /* Build configuration list for PBXNativeTarget "CalcyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ED26201DD82345002C90E1 /* Debug */,
+				33ED26211DD82345002C90E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33ED25E91DD82344002C90E1 /* Project object */;
+}
