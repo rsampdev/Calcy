@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		33ED25F51DD82344002C90E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED25F41DD82344002C90E1 /* AppDelegate.swift */; };
-		33ED25F71DD82344002C90E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED25F61DD82344002C90E1 /* ViewController.swift */; };
+		33ED25F71DD82344002C90E1 /* CalcyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED25F61DD82344002C90E1 /* CalcyViewController.swift */; };
 		33ED25FA1DD82344002C90E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33ED25F81DD82344002C90E1 /* Main.storyboard */; };
 		33ED25FC1DD82344002C90E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33ED25FB1DD82344002C90E1 /* Assets.xcassets */; };
 		33ED25FF1DD82344002C90E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33ED25FD1DD82344002C90E1 /* LaunchScreen.storyboard */; };
 		33ED260A1DD82344002C90E1 /* CalcyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED26091DD82344002C90E1 /* CalcyTests.swift */; };
 		33ED26151DD82345002C90E1 /* CalcyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED26141DD82345002C90E1 /* CalcyUITests.swift */; };
+		33FA629B1DD8E14F005EEA44 /* Calcy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA629A1DD8E14F005EEA44 /* Calcy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		33ED25F11DD82344002C90E1 /* Calcy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calcy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33ED25F41DD82344002C90E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33ED25F61DD82344002C90E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33ED25F61DD82344002C90E1 /* CalcyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcyViewController.swift; sourceTree = "<group>"; };
 		33ED25F91DD82344002C90E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33ED25FB1DD82344002C90E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33ED25FE1DD82344002C90E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		33ED26101DD82344002C90E1 /* CalcyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33ED26141DD82345002C90E1 /* CalcyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcyUITests.swift; sourceTree = "<group>"; };
 		33ED26161DD82345002C90E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33FA629A1DD8E14F005EEA44 /* Calcy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calcy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				33ED25F41DD82344002C90E1 /* AppDelegate.swift */,
-				33ED25F61DD82344002C90E1 /* ViewController.swift */,
+				33ED25F61DD82344002C90E1 /* CalcyViewController.swift */,
 				33ED25F81DD82344002C90E1 /* Main.storyboard */,
 				33ED25FB1DD82344002C90E1 /* Assets.xcassets */,
 				33ED25FD1DD82344002C90E1 /* LaunchScreen.storyboard */,
 				33ED26001DD82344002C90E1 /* Info.plist */,
+				33FA629A1DD8E14F005EEA44 /* Calcy.swift */,
 			);
 			path = Calcy;
 			sourceTree = "<group>";
@@ -262,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33ED25F71DD82344002C90E1 /* ViewController.swift in Sources */,
+				33ED25F71DD82344002C90E1 /* CalcyViewController.swift in Sources */,
+				33FA629B1DD8E14F005EEA44 /* Calcy.swift in Sources */,
 				33ED25F51DD82344002C90E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +516,7 @@
 				33ED261B1DD82345002C90E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33ED261C1DD82345002C90E1 /* Build configuration list for PBXNativeTarget "CalcyTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				33ED261E1DD82345002C90E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33ED261F1DD82345002C90E1 /* Build configuration list for PBXNativeTarget "CalcyUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				33ED26211DD82345002C90E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
