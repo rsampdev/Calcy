@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CalcyViewController.swift
 //  Calcy
 //
 //  Created by Rodney Sampson on 11/12/16.
@@ -19,11 +19,9 @@ class CalcyViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        firstOperandDisplay.text = "0.0"
-        secondOperandDisplay.text = "0.0"
         firstOperandDisplay.adjustsFontSizeToFitWidth = true
         secondOperandDisplay.adjustsFontSizeToFitWidth = true
-        operatorDisplay.text = calcy.operation.symbol()
+        updateDisplays()
     }
     
     private func updateDisplays() {

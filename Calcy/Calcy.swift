@@ -9,19 +9,27 @@
 import Foundation
 
 internal final class Calcy {
-    var firstOperand: Double = 0
-    var secondOperand: Double = 0
-    private(set) var operation: Operation
-    
-    init() {
-        operation = .none
-    }
+    var firstOperand: Double = 0.0
+    var secondOperand: Double = 0.0
+    private(set) var operation: Operation = .none
     
     func enter(number: Double) {
-        if firstOperand == 0 {
-            firstOperand = number
+        if operation == .none {
+            let a = Int(firstOperand)
+            let b = Double(a)
+            let c = firstOperand - Double(b)
+            let numString = String(a).appending(String(number))
+            var newNum = Double(numString)!
+            newNum += c
+            firstOperand = newNum
         } else {
-            secondOperand = number
+            let a = Int(secondOperand)
+            let b = Double(a)
+            let c = secondOperand - Double(b)
+            let numString = String(a).appending(String(number))
+            var newNum = Double(numString)!
+            newNum += c
+            secondOperand = newNum
         }
     }
     
@@ -72,5 +80,5 @@ internal final class Calcy {
         secondOperand = 0
         operation = .none
     }
-
+    
 }
